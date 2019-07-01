@@ -146,7 +146,8 @@ let message = name => {
 console.log(message('Allie'));
 
 
-let Student = function(name, age, hometown) {
+let Student = function (name, age, hometown) {
+  console.log(this);
   this.name = name;
   this.age = age;
   this.hometown = hometown;
@@ -199,8 +200,8 @@ console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//"this" is undefined
+//"this" is Student
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//"this" is undefined
+//"this" is window
 // 3. Explain why "this" is different when an arrow function is used.
 //An arrow function expression is a syntactically compact alternative to a regular function expression, although without its own bindings to the this, arguments, super, or new.target keywords. Arrow function expressions are ill suited as methods, and they cannot be used as constructors. source:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
