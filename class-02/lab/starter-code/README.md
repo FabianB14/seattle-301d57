@@ -10,12 +10,14 @@ Finish time: 11:20
 
 Actual time needed to complete: 1:15
 
+# As user we want to be able to fiter images so that match a keyword
+# Here we will be using jQuery to filter images by the key
 
 Number and name of feature:#2: Filter Images
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1 hour
 
-Start time: _____
+Start time: 11:41
 
 Finish time: _____
 
